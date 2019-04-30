@@ -1,0 +1,148 @@
+body{
+    background-color: #02111B;
+    width: 1200px;
+    color: white;
+    margin: 0 auto;
+}
+
+header{
+    height: 100px;
+    margin: auto 0;
+}
+
+h1 h2 h3{
+    text-transform: lowercase;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-size: 30px;
+}
+/*Aurora Image*/
+.main-image h2{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+    background: url('../img/head.png');
+    height: 450px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+h2 span {
+    color: #f70074;
+}
+
+h3{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+}
+
+h3 span{
+    color: #f70074;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    font-size: 24px;
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+header h1{
+    float: left;
+    margin: 0;
+    padding: 38px 0;
+}
+
+header nav{
+    float: right;
+    padding: 46px 0;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+}
+/*Nav*/
+header nav ul li{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 10px;
+    display: inline;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+/****PORTFOLIO Section with images****/
+.portfolio{
+    width: 1200px;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.full-width h3{
+    color: #f70074;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.fourth-width{
+    float: right;
+    width: 540px;
+    margin: 20px;
+    padding: 10px;
+    height: 550px
+}
+
+
+section{
+    clear: both;
+}
+/***ABOUT Section with star image***/
+#about{
+    height: 300px;
+    text-align: center;
+    background: url('../img/about.png');
+    margin: auto, 0px;
+    padding: 5px;
+}
+
+#about p{
+    font-size: 24px;
+}
+
+/***CONTACT Section***/
+#contact{
+    text-align: center;
+}
+.third-width{
+    width: 350px;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+
+#contact p{
+    line-height: 10px;
+    text-align: center;
+}
+
+#contact ul li{
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
